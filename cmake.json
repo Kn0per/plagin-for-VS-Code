@@ -1,0 +1,21 @@
+
+{
+  "name": "color-picker",
+  "displayName": "Color Picker",
+  "version": "1.0.0",
+  "main": "main.js",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onCommand:colorPicker.insert"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "colorPicker.insert",
+        "title": "Insert Color Code"
+      }
+    ]
+  }
+}
